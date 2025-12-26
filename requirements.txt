@@ -1,0 +1,6 @@
+gradio==4.44.0
+transformers==4.46.0
+torch==2.1.0
+pytz==2024.1
+pandas==2.2.0
+huggingface_hub==0.25.0
