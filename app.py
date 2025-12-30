@@ -397,6 +397,25 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Soft(primary_hue="blue")) as demo
         with gr.Column(scale=1):
             gr.Markdown("## 📝 Buat Reminder")
 
+            with gr.Accordion("📚 How it works", open=False):
+                gr.Markdown("""
+                1. Masukkan input anda menggunakan bahasa Indonesia  
+                2. Pengingat akan diproses menggunakan model NER BiLSTM-CRF  
+                3. Waktu akan dinormalisasi secara otomatis  
+                4. Reminder ditampilkan secara statis  
+                5. Alarm akan berbunyi otomatis saat waktu tiba  
+                6. Alarm mengulang selama 10 detik, lalu berhenti  
+
+                **Supported formats:**
+                - **Relative:** "20 detik lagi", "5 menit lagi", "2 jam lagi"
+                - **Absolute:** "besok jam 10", "hari ini jam 14:30"
+                - **Day + time:** "Senin pagi jam 9", "Jumat sore"
+
+                **⚠️ Important**
+                - Tetap buka tab ini agar alarm bisa bekerja
+
+                """)
+
             text_input = gr.Textbox(
                 label="Masukkan Reminder",
                 placeholder="Contoh: reminder 20 detik lagi",
@@ -416,6 +435,12 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Soft(primary_hue="blue")) as demo
                 label="💡 Contoh yang bisa dipakai:"
             )
 
+            with gr.Accordion("🔍 NER Entities", open=False):
+                entity_table = gr.Dataframe(interactive=False)
+
+            with gr.Accordion("🐛 Debug Info", open=False):
+                debug_info = gr.Textbox(lines=18, interactive=False)
+
         with gr.Column(scale=1):
             gr.Markdown("## ⏰ Alarm Aktif")
 
@@ -423,32 +448,6 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Soft(primary_hue="blue")) as demo
 
     # gr.Markdown("### 🔊 Alarm Audio")
     audio_player = gr.HTML()
-
-    with gr.Accordion("🔍 NER Entities", open=False):
-        entity_table = gr.Dataframe(interactive=False)
-
-    with gr.Accordion("🐛 Debug Info", open=False):
-        debug_info = gr.Textbox(lines=18, interactive=False)
-
-    gr.Markdown("""
-    ---
-    ### 📚 Cara Kerja
-    
-    1. Masukkan input anda menggunakan bahasa Indonesia
-    2. Pengingat anda akan ditampilkan dengan waktu yang sudah anda tetapkan
-    3. Akan ada countdown waktu anda sampai waktunya tiba
-    4. Alarm akan terpicu ketika waktunya sudah tiba
-    5. Akan mengulang alarm selama 10 detik dan selesai
-    
-    **Supported formats:**
-    - **Relative:** "20 detik lagi", "5 menit lagi", "2 jam lagi"
-    - **Absolute:** "besok jam 10", "hari ini jam 14:30"
-    - **Day + time:** "Senin pagi jam 9", "Jumat sore"
-    
-    **⚠️ Important: Tetap buka tab ini agar alarm bisa bekerja**
-    
-    **✨ Created by Abdul Azizur Rokhman | BiLSTM-CRF NER Model**
-    """)
 
     # Event handlers
     submit_btn.click(
