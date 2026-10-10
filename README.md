@@ -70,16 +70,6 @@ Tidak menggunakan model lokal di Hugging Face Space.
 
 ---
 
-## Run Locally
-
-pip install -r requirements.txt  
-python app.py  
-
-Buka di browser:  
-http://localhost:7860
-
----
-
 ## Live Demo
 
 https://huggingface.co/spaces/Aizuro/AI-Reminder-Indonesian-Language
