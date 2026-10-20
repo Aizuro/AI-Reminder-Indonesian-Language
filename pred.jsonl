@@ -1,0 +1,125 @@
+{"text": "kirim laporan ke dosen pembimbing", "match": true, "gold": [], "pred": []}
+{"text": "jam 5 pagi kirim laporan", "match": false, "gold": [["TIME", "jam 5 pagi"]], "pred": [["TIME_ABS", "jam 5 pagi"]]}
+{"text": "tolong ingatkan jam 12 siang untuk backup data", "match": false, "gold": [["TIME", "jam 12 siang"]], "pred": [["TIME_ABS", "jam 12 siang"]]}
+{"text": "reminder hari ini jam 5 sore untuk backup data", "match": false, "gold": [["DATE", "hari ini"], ["TIME", "jam 5 sore"]], "pred": [["TIME_REL", "hari ini jam 5 sore"]]}
+{"text": "ingatkan saya besok jam 06.30 untuk kirim laporan", "match": false, "gold": [["DATE", "besok"], ["TIME", "jam 06.30"]], "pred": [["TIME_REL", "besok jam 06 . 30"]]}
+{"text": "ibu sedang memasak nasi goreng", "match": true, "gold": [], "pred": []}
+{"text": "ingatkan saya beli galon jam 11 malam", "match": false, "gold": [["TIME", "jam 11 malam"]], "pred": [["TIME_ABS", "jam 11 malam"]]}
+{"text": "Ingatkan saya masak nasi 45 menit lagi", "match": false, "gold": [["DURATION", "45 menit lagi"]], "pred": [["TIME_REL", "45 menit lagi"]]}
+{"text": "jangan lupa cek email dalam 2 jam", "match": true, "gold": [["DURATION", "dalam 2 jam"]], "pred": [["DURATION", "dalam 2 jam"]]}
+{"text": "ingatkan saya minum obat 20 detik lagi", "match": false, "gold": [["DURATION", "20 detik lagi"]], "pred": [["TIME_REL", "20 detik lagi"]]}
+{"text": "tolong ingatkan 45 menit lagi untuk siram tanaman", "match": false, "gold": [["DURATION", "45 menit lagi"]], "pred": [["TIME_REL", "45 menit lagi"]]}
+{"text": "jam 3 sore kerja kelompok", "match": false, "gold": [["TIME", "jam 3 sore"]], "pred": [["TIME_ABS", "jam 3 sore"]]}
+{"text": "lusa pukul 13.30 telepon ibu", "match": false, "gold": [["DATE", "lusa"], ["TIME", "pukul 13.30"]], "pred": [["TIME_REL", "lusa pukul 13 . 30"]]}
+{"text": "reminder bayar listrik besok jam 2 siang", "match": false, "gold": [["DATE", "besok"], ["TIME", "jam 2 siang"]], "pred": [["TIME_REL", "besok jam 2 siang"]]}
+{"text": "nanti sore kirim laporan", "match": false, "gold": [["TIME", "nanti sore"]], "pred": [["TIME_REL", "nanti sore"]]}
+{"text": "siram tanaman di teras depan", "match": true, "gold": [], "pred": []}
+{"text": "buatkan catatan rapat tim", "match": true, "gold": [], "pred": []}
+{"text": "ingatkan saya belajar python 3 hari lagi", "match": false, "gold": [["DURATION", "3 hari lagi"]], "pred": [["TIME_REL", "3 hari lagi"]]}
+{"text": "cek email hari sabtu jam 10 pagi", "match": false, "gold": [["DATE", "hari sabtu"], ["TIME", "jam 10 pagi"]], "pred": [["TIME_ABS", "hari sabtu"], ["TIME_ABS", "jam 10 pagi"]]}
+{"text": "ingatkan saya backup data hari ini jam 21.00", "match": false, "gold": [["DATE", "hari ini"], ["TIME", "jam 21.00"]], "pred": [["TIME_REL", "hari ini jam 21 . 00"]]}
+{"text": "jam sepuluh malam siram tanaman", "match": false, "gold": [["TIME", "jam sepuluh malam"]], "pred": [["TIME_ABS", "jam sepuluh malam"]]}
+{"text": "reminder ambil paket jam 3 sore", "match": false, "gold": [["TIME", "jam 3 sore"]], "pred": [["TIME_ABS", "jam 3 sore"]]}
+{"text": "servis motor 20 detik lagi", "match": false, "gold": [["DURATION", "20 detik lagi"]], "pred": [["TIME_REL", "20 detik lagi"]]}
+{"text": "latihan presentasi tiga jam lagi", "match": false, "gold": [["DURATION", "tiga jam lagi"]], "pred": [["TIME_INT", "tiga jam lagi"]]}
+{"text": "ingatkan saya nanti sore untuk jemput adik", "match": false, "gold": [["TIME", "nanti sore"]], "pred": [["TIME_REL", "nanti sore"]]}
+{"text": "ingatkan saya siram tanaman sejam lagi", "match": false, "gold": [["DURATION", "sejam lagi"]], "pred": [["TIME_REL", "sejam lagi"]]}
+{"text": "tolong ingatkan kerja kelompok 10 detik lagi", "match": false, "gold": [["DURATION", "10 detik lagi"]], "pred": [["TIME_REL", "10 detik lagi"]]}
+{"text": "senin jam 8 pagi kerja kelompok", "match": false, "gold": [["DATE", "senin"], ["TIME", "jam 8 pagi"]], "pred": [["TIME_ABS", "senin jam 8 pagi"]]}
+{"text": "sabtu malam jam 7 submit tugas", "match": false, "gold": [["DATE", "sabtu"], ["TIME", "malam"], ["TIME", "jam 7"]], "pred": [["TIME_ABS", "sabtu malam"], ["TIME_ABS", "jam 7"]]}
+{"text": "olahraga besok malam jam 8", "match": false, "gold": [["DATE", "besok"], ["TIME", "malam"], ["TIME", "jam 8"]], "pred": [["TIME_REL", "besok malam jam 8"]]}
+{"text": "ikut kelas online besok pagi", "match": false, "gold": [["DATE", "besok"], ["TIME", "pagi"]], "pred": [["TIME_REL", "besok pagi"]]}
+{"text": "Jangan lupa bayar listrik 5 menit lagi", "match": false, "gold": [["DURATION", "5 menit lagi"]], "pred": [["TIME_REL", "5 menit lagi"]]}
+{"text": "tolong ingatkan sore ini untuk beli galon", "match": false, "gold": [["TIME", "sore ini"]], "pred": [["TIME_REL", "sore ini"]]}
+{"text": "ingatkan saya backup data kamis malam", "match": false, "gold": [["DATE", "kamis"], ["TIME", "malam"]], "pred": [["TIME_ABS", "kamis malam"]]}
+{"text": "jam 5 pagi backup data", "match": false, "gold": [["TIME", "jam 5 pagi"]], "pred": [["TIME_ABS", "jam 5 pagi"]]}
+{"text": "latihan presentasi sabtu malam jam 7", "match": false, "gold": [["DATE", "sabtu"], ["TIME", "malam"], ["TIME", "jam 7"]], "pred": [["TIME_ABS", "sabtu malam jam 7"]]}
+{"text": "jangan lupa kamis malam untuk servis motor", "match": false, "gold": [["DATE", "kamis"], ["TIME", "malam"]], "pred": [["TIME_ABS", "kamis malam"]]}
+{"text": "reminder belajar python besok malam jam 8", "match": false, "gold": [["DATE", "besok"], ["TIME", "malam"], ["TIME", "jam 8"]], "pred": [["TIME_REL", "besok malam jam 8"]]}
+{"text": "Siram tanaman jam 12 siang", "match": false, "gold": [["TIME", "jam 12 siang"]], "pred": [["TIME_ABS", "jam 12 siang"]]}
+{"text": "jemput adik kamis jam setengah 10 pagi", "match": false, "gold": [["DATE", "kamis"], ["TIME", "jam setengah 10 pagi"]], "pred": [["TIME_ABS", "kamis jam setengah 10 pagi"]]}
+{"text": "jangan lupa nanti malam untuk ambil paket", "match": false, "gold": [["TIME", "nanti malam"]], "pred": [["TIME_REL", "nanti malam"]]}
+{"text": "alarm untuk masak nasi jumat minggu depan jam 13.00", "match": false, "gold": [["DATE", "jumat"], ["DATE", "minggu depan"], ["TIME", "jam 13.00"]], "pred": [["TIME_ABS", "jumat minggu depan jam 13 . 00"]]}
+{"text": "alarm untuk minum obat rabu sore", "match": false, "gold": [["DATE", "rabu"], ["TIME", "sore"]], "pred": [["TIME_ABS", "rabu sore"]]}
+{"text": "jangan lupa sabtu malam jam 7 untuk jemput adik", "match": false, "gold": [["DATE", "sabtu"], ["TIME", "malam"], ["TIME", "jam 7"]], "pred": [["TIME_ABS", "sabtu malam jam 7"]]}
+{"text": "Jam 16.45 masak nasi", "match": false, "gold": [["TIME", "Jam 16.45"]], "pred": [["TIME_ABS", "jam 16 . 45"]]}
+{"text": "Tolong ingatkan kerja kelompok jam setengah 8 malam", "match": false, "gold": [["TIME", "jam setengah 8 malam"]], "pred": [["TIME_ABS", "jam setengah 8 malam"]]}
+{"text": "alarm untuk beli galon 10 detik lagi", "match": false, "gold": [["DURATION", "10 detik lagi"]], "pred": [["TIME_REL", "10 detik lagi"]]}
+{"text": "ikut kelas online besok jam 7 pagi", "match": false, "gold": [["DATE", "besok"], ["TIME", "jam 7 pagi"]], "pred": [["TIME_REL", "besok jam 7 pagi"]]}
+{"text": "jam setengah 8 malam servis motor", "match": false, "gold": [["TIME", "jam setengah 8 malam"]], "pred": [["TIME_ABS", "jam setengah 8 malam"]]}
+{"text": "ambil paket 1 minggu lagi", "match": false, "gold": [["DURATION", "1 minggu lagi"]], "pred": [["TIME_INT", "1 minggu lagi"]]}
+{"text": "reminder telepon ibu lusa pagi", "match": false, "gold": [["DATE", "lusa"], ["TIME", "pagi"]], "pred": [["TIME_REL", "lusa pagi"]]}
+{"text": "reminder rapat tim besok jam sembilan pagi", "match": false, "gold": [["DATE", "besok"], ["TIME", "jam sembilan pagi"]], "pred": [["TIME_REL", "besok jam sembilan pagi"]]}
+{"text": "hari sabtu jam 10 pagi belajar python", "match": false, "gold": [["DATE", "hari sabtu"], ["TIME", "jam 10 pagi"]], "pred": [["TIME_ABS", "hari sabtu"], ["TIME_ABS", "jam 10 pagi"]]}
+{"text": "tolong ingatkan selasa jam 3 sore untuk cek email", "match": false, "gold": [["DATE", "selasa"], ["TIME", "jam 3 sore"]], "pred": [["TIME_ABS", "selasa jam 3 sore"]]}
+{"text": "backup data hari jumat jam 14.00", "match": false, "gold": [["DATE", "hari jumat"], ["TIME", "jam 14.00"]], "pred": [["TIME_ABS", "hari jumat"], ["TIME_ABS", "jam 14 . 00"]]}
+{"text": "jangan lupa olahraga tiga jam lagi", "match": false, "gold": [["DURATION", "tiga jam lagi"]], "pred": [["TIME_REL", "tiga jam lagi"]]}
+{"text": "cek email malam ini", "match": false, "gold": [["TIME", "malam ini"]], "pred": [["TIME_REL", "malam ini"]]}
+{"text": "minum obat malam ini", "match": false, "gold": [["TIME", "malam ini"]], "pred": [["TIME_REL", "malam ini"]]}
+{"text": "tolong ingatkan setengah jam lagi untuk siram tanaman", "match": false, "gold": [["DURATION", "setengah jam lagi"]], "pred": [["TIME_REL", "setengah jam lagi"]]}
+{"text": "jangan lupa hari ini jam 21.00 untuk belajar python", "match": false, "gold": [["DATE", "hari ini"], ["TIME", "jam 21.00"]], "pred": [["TIME_REL", "hari ini jam 21 . 00"]]}
+{"text": "tambahkan catatan untuk proyek skripsi", "match": true, "gold": [], "pred": []}
+{"text": "reminder minum obat sabtu malam jam 7", "match": false, "gold": [["DATE", "sabtu"], ["TIME", "malam"], ["TIME", "jam 7"]], "pred": [["TIME_ABS", "sabtu malam jam 7"]]}
+{"text": "ikut kelas online minggu depan hari senin jam 9 pagi", "match": false, "gold": [["DATE", "minggu depan"], ["DATE", "hari senin"], ["TIME", "jam 9 pagi"]], "pred": [["TIME_REL", "minggu depan"], ["TIME_ABS", "hari senin"], ["TIME_ABS", "jam 9 pagi"]]}
+{"text": "Minum obat 10 detik lagi", "match": false, "gold": [["DURATION", "10 detik lagi"]], "pred": [["TIME_REL", "10 detik lagi"]]}
+{"text": "besok jam 2 siang servis motor", "match": false, "gold": [["DATE", "besok"], ["TIME", "jam 2 siang"]], "pred": [["TIME_REL", "besok jam 2 siang"]]}
+{"text": "jam setengah 8 malam kirim laporan", "match": false, "gold": [["TIME", "jam setengah 8 malam"]], "pred": [["TIME_ABS", "jam setengah 8 malam"]]}
+{"text": "jangan lupa telepon ibu hari minggu jam 8 pagi", "match": false, "gold": [["DATE", "hari minggu"], ["TIME", "jam 8 pagi"]], "pred": [["TIME_ABS", "hari minggu"], ["TIME_ABS", "jam 8 pagi"]]}
+{"text": "Besok pagi jemput adik", "match": false, "gold": [["DATE", "Besok"], ["TIME", "pagi"]], "pred": [["TIME_REL", "besok pagi"]]}
+{"text": "backup data besok pagi", "match": false, "gold": [["DATE", "besok"], ["TIME", "pagi"]], "pred": [["TIME_REL", "besok pagi"]]}
+{"text": "backup data kamis jam setengah 10 pagi", "match": false, "gold": [["DATE", "kamis"], ["TIME", "jam setengah 10 pagi"]], "pred": [["TIME_ABS", "kamis jam setengah 10 pagi"]]}
+{"text": "ingatkan saya 3 hari lagi untuk olahraga", "match": false, "gold": [["DURATION", "3 hari lagi"]], "pred": [["TIME_REL", "3 hari lagi"]]}
+{"text": "reminder kamis jam setengah 10 pagi untuk servis motor", "match": false, "gold": [["DATE", "kamis"], ["TIME", "jam setengah 10 pagi"]], "pred": [["TIME_ABS", "kamis jam setengah 10 pagi"]]}
+{"text": "ingatkan saya pukul 19.30 untuk telepon ibu", "match": false, "gold": [["TIME", "pukul 19.30"]], "pred": [["TIME_ABS", "pukul 19 . 30"]]}
+{"text": "besok jam 7 pagi kerja kelompok", "match": false, "gold": [["DATE", "besok"], ["TIME", "jam 7 pagi"]], "pred": [["TIME_REL", "besok jam 7 pagi"]]}
+{"text": "dua puluh menit lagi kirim laporan", "match": false, "gold": [["DURATION", "dua puluh menit lagi"]], "pred": [["TIME_REL", "dua puluh menit lagi"]]}
+{"text": "olahraga pukul 19.30", "match": false, "gold": [["TIME", "pukul 19.30"]], "pred": [["TIME_ABS", "pukul 19 . 30"]]}
+{"text": "jangan lupa submit tugas jumat minggu depan jam 13.00", "match": false, "gold": [["DATE", "jumat"], ["DATE", "minggu depan"], ["TIME", "jam 13.00"]], "pred": [["TIME_ABS", "jumat"], ["TIME_REL", "minggu depan"], ["TIME_ABS", "jam 13 . 00"]]}
+{"text": "Ingatkan saya masak nasi besok jam sembilan pagi", "match": false, "gold": [["DATE", "besok"], ["TIME", "jam sembilan pagi"]], "pred": [["TIME_REL", "besok jam sembilan pagi"]]}
+{"text": "alarm untuk latihan presentasi lusa jam 8 malam", "match": false, "gold": [["DATE", "lusa"], ["TIME", "jam 8 malam"]], "pred": [["TIME_REL", "lusa jam 8 malam"]]}
+{"text": "beli galon dan gas elpiji", "match": true, "gold": [], "pred": []}
+{"text": "lusa jam 8 malam beli galon", "match": false, "gold": [["DATE", "lusa"], ["TIME", "jam 8 malam"]], "pred": [["TIME_REL", "lusa jam 8 malam"]]}
+{"text": "masak nasi hari sabtu jam 10 pagi", "match": false, "gold": [["DATE", "hari sabtu"], ["TIME", "jam 10 pagi"]], "pred": [["TIME_ABS", "hari sabtu"], ["TIME_ABS", "jam 10 pagi"]]}
+{"text": "olahraga besok jam 06.30", "match": false, "gold": [["DATE", "besok"], ["TIME", "jam 06.30"]], "pred": [["TIME_REL", "besok jam 06 . 30"]]}
+{"text": "apa saja tugas saya", "match": true, "gold": [], "pred": []}
+{"text": "alarm untuk kerja kelompok selasa jam 3 sore", "match": false, "gold": [["DATE", "selasa"], ["TIME", "jam 3 sore"]], "pred": [["TIME_ABS", "selasa jam 3 sore"]]}
+{"text": "belajar python dua puluh menit lagi", "match": false, "gold": [["DURATION", "dua puluh menit lagi"]], "pred": [["TIME_REL", "dua puluh menit lagi"]]}
+{"text": "ikut kelas online dalam 15 menit", "match": true, "gold": [["DURATION", "dalam 15 menit"]], "pred": [["DURATION", "dalam 15 menit"]]}
+{"text": "lusa pukul 13.30 backup data", "match": false, "gold": [["DATE", "lusa"], ["TIME", "pukul 13.30"]], "pred": [["TIME_REL", "lusa pukul 13 . 30"]]}
+{"text": "kirim laporan hari ini jam 21.00", "match": false, "gold": [["DATE", "hari ini"], ["TIME", "jam 21.00"]], "pred": [["TIME_REL", "hari ini jam 21 . 00"]]}
+{"text": "saya ingin belajar python lebih dalam", "match": true, "gold": [], "pred": []}
+{"text": "Jangan lupa setengah jam lagi untuk kerja kelompok", "match": false, "gold": [["DURATION", "setengah jam lagi"]], "pred": [["TIME_REL", "setengah jam lagi"]]}
+{"text": "90 menit lagi kerja kelompok", "match": false, "gold": [["DURATION", "90 menit lagi"]], "pred": [["TIME_REL", "90 menit lagi"]]}
+{"text": "reminder jemput adik 20 detik lagi", "match": false, "gold": [["DURATION", "20 detik lagi"]], "pred": [["TIME_REL", "20 detik lagi"]]}
+{"text": "reminder kirim laporan jam sepuluh malam", "match": false, "gold": [["TIME", "jam sepuluh malam"]], "pred": [["TIME_ABS", "jam sepuluh malam"]]}
+{"text": "hari minggu jam 8 pagi beli galon", "match": false, "gold": [["DATE", "hari minggu"], ["TIME", "jam 8 pagi"]], "pred": [["TIME_ABS", "hari minggu"], ["TIME_ABS", "jam 8 pagi"]]}
+{"text": "tolong catat daftar belanja bulanan", "match": true, "gold": [], "pred": []}
+{"text": "besok siang ikut kelas online", "match": false, "gold": [["DATE", "besok"], ["TIME", "siang"]], "pred": [["TIME_REL", "besok siang"]]}
+{"text": "tolong ingatkan belajar python 5 menit lagi", "match": false, "gold": [["DURATION", "5 menit lagi"]], "pred": [["TIME_REL", "5 menit lagi"]]}
+{"text": "90 menit lagi ketemu dosen pembimbing", "match": false, "gold": [["DURATION", "90 menit lagi"]], "pred": [["TIME_REL", "90 menit lagi"]]}
+{"text": "masak nasi jam 11 malam", "match": false, "gold": [["TIME", "jam 11 malam"]], "pred": [["TIME_ABS", "jam 11 malam"]]}
+{"text": "jam 7 kurang 15 menit masak nasi", "match": false, "gold": [["TIME", "jam 7 kurang 15 menit"]], "pred": [["TIME_ABS", "jam 7 kurang 15 menit"]]}
+{"text": "tolong ingatkan nanti malam untuk belajar python", "match": false, "gold": [["TIME", "nanti malam"]], "pred": [["TIME_REL", "nanti malam"]]}
+{"text": "ingatkan saya senin jam 8 pagi untuk bayar listrik", "match": false, "gold": [["DATE", "senin"], ["TIME", "jam 8 pagi"]], "pred": [["TIME_REL", "senin jam 8 pagi"]]}
+{"text": "submit tugas hari ini jam 5 sore", "match": false, "gold": [["DATE", "hari ini"], ["TIME", "jam 5 sore"]], "pred": [["TIME_REL", "hari ini jam 5 sore"]]}
+{"text": "reminder lusa pagi untuk beli galon", "match": false, "gold": [["DATE", "lusa"], ["TIME", "pagi"]], "pred": [["TIME_REL", "lusa pagi"]]}
+{"text": "tolong ingatkan 2 jam lagi untuk beli galon", "match": false, "gold": [["DURATION", "2 jam lagi"]], "pred": [["TIME_REL", "2 jam lagi"]]}
+{"text": "reminder 1 minggu lagi untuk rapat tim", "match": false, "gold": [["DURATION", "1 minggu lagi"]], "pred": [["TIME_REL", "1 minggu lagi"]]}
+{"text": "Jangan lupa dalam 15 menit untuk minum obat", "match": false, "gold": [["DURATION", "dalam 15 menit"]], "pred": [["TIME_REL", "dalam 15 menit"]]}
+{"text": "jam 16.45 beli galon", "match": false, "gold": [["TIME", "jam 16.45"]], "pred": [["TIME_ABS", "jam 16 . 45"]]}
+{"text": "jumat minggu depan jam 13.00 cek email", "match": false, "gold": [["DATE", "jumat"], ["DATE", "minggu depan"], ["TIME", "jam 13.00"]], "pred": [["TIME_ABS", "jumat minggu"], ["TIME_REL", "depan jam 13 . 00"]]}
+{"text": "besok siang jemput adik", "match": false, "gold": [["DATE", "besok"], ["TIME", "siang"]], "pred": [["TIME_REL", "besok siang"]]}
+{"text": "tolong ingatkan dalam 2 jam untuk siram tanaman", "match": false, "gold": [["DURATION", "dalam 2 jam"]], "pred": [["TIME_REL", "dalam 2 jam"]]}
+{"text": "reminder telepon ibu rabu sore", "match": false, "gold": [["DATE", "rabu"], ["TIME", "sore"]], "pred": [["TIME_ABS", "rabu sore"]]}
+{"text": "tolong ingatkan beli galon sejam lagi", "match": false, "gold": [["DURATION", "sejam lagi"]], "pred": [["TIME_REL", "sejam lagi"]]}
+{"text": "jangan lupa kirim laporan 2 jam lagi", "match": false, "gold": [["DURATION", "2 jam lagi"]], "pred": [["TIME_REL", "2 jam lagi"]]}
+{"text": "hari jumat jam 14.00 minum obat", "match": false, "gold": [["DATE", "hari jumat"], ["TIME", "jam 14.00"]], "pred": [["TIME_ABS", "hari jumat"], ["TIME_ABS", "jam 14 . 00"]]}
+{"text": "minggu depan hari senin jam 9 pagi jemput adik", "match": false, "gold": [["DATE", "minggu depan"], ["DATE", "hari senin"], ["TIME", "jam 9 pagi"]], "pred": [["TIME_REL", "minggu depan"], ["TIME_ABS", "hari senin"], ["TIME_ABS", "jam 9 pagi"]]}
+{"text": "20 detik lagi submit tugas", "match": false, "gold": [["DURATION", "20 detik lagi"]], "pred": [["TIME_REL", "20 detik lagi"]]}
+{"text": "jangan lupa rapat tim besok siang", "match": false, "gold": [["DATE", "besok"], ["TIME", "siang"]], "pred": [["TIME_REL", "besok siang"]]}
+{"text": "tolong ingatkan jam 7 kurang 15 menit untuk latihan presentasi", "match": false, "gold": [["TIME", "jam 7 kurang 15 menit"]], "pred": [["TIME_ABS", "jam 7 kurang 15 menit"]]}
+{"text": "Tolong ingatkan kamis malam untuk bayar listrik", "match": false, "gold": [["DATE", "kamis"], ["TIME", "malam"]], "pred": [["TIME_REL", "kamis malam"]]}
+{"text": "reminder ikut kelas online lusa pagi", "match": false, "gold": [["DATE", "lusa"], ["TIME", "pagi"]], "pred": [["TIME_REL", "lusa pagi"]]}
+{"text": "beli galon sore ini", "match": false, "gold": [["TIME", "sore ini"]], "pred": [["TIME_REL", "sore ini"]]}
+{"text": "servis motor di bengkel dekat rumah", "match": true, "gold": [], "pred": []}
+{"text": "kerja kelompok besok pagi", "match": false, "gold": [["DATE", "besok"], ["TIME", "pagi"]], "pred": [["TIME_REL", "besok pagi"]]}

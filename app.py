@@ -9,6 +9,7 @@ import time
 # Import our modules
 from src.ner_model import ReminderNERModel
 from src.time_normalizer import TimeNormalizer
+from src.ics_export import build_ics
 
 # ============================================
 # CONFIGURATION
@@ -381,6 +382,21 @@ def clear_all() -> Tuple:
 
     return display_html, audio_html, empty_table, "Kosong", "Sudah terhapus semua"
 
+
+def export_ics():
+    """Export all active reminders to an .ics file (Google Calendar / Outlook)"""
+    import os
+    import tempfile
+
+    if not reminders:
+        gr.Warning("Belum ada reminder untuk diexport.")
+        return None
+
+    path = os.path.join(tempfile.gettempdir(), "ai_reminder.ics")
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write(build_ics(reminders))
+    return path
+
 # ============================================
 # GRADIO INTERFACE
 # ============================================
@@ -410,6 +426,7 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Soft(primary_hue="blue")) as demo
                 - **Relative:** "20 detik lagi", "5 menit lagi", "2 jam lagi"
                 - **Absolute:** "besok jam 10", "hari ini jam 14:30"
                 - **Day + time:** "Senin pagi jam 9", "Jumat sore"
+                - **Sehari-hari:** "jam setengah 8 pagi", "jam 7 kurang 15", "besok jam sepuluh malam", "minggu depan hari senin jam 9"
 
                 **⚠️ Important**
                 - Tetap buka tab ini agar alarm bisa bekerja
@@ -428,6 +445,9 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Soft(primary_hue="blue")) as demo
                 clear_btn = gr.Button("🗑️ Hapus Semua", scale=1)
 
             success_msg = gr.Textbox(label="Status", interactive=False)
+
+            export_btn = gr.Button("📅 Export ke Kalender (.ics)")
+            ics_file = gr.File(label="File kalender (.ics)", interactive=False)
 
             gr.Examples(
                 examples=EXAMPLES,
@@ -456,6 +476,8 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Soft(primary_hue="blue")) as demo
         outputs=[reminder_display, audio_player,
                  entity_table, debug_info, success_msg]
     )
+
+    export_btn.click(fn=export_ics, outputs=[ics_file])
 
     clear_btn.click(
         fn=clear_all,

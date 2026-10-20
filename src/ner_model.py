@@ -1,6 +1,8 @@
 from transformers import AutoModelForTokenClassification, AutoTokenizer
 import torch
 
+from .token_utils import merge_subwords
+
 
 class ReminderNERModel:
     def __init__(self, model_path: str = "model/checkpoint"):
@@ -37,16 +39,9 @@ class ReminderNERModel:
         tokens = self.tokenizer.convert_ids_to_tokens(inputs['input_ids'][0])
         labels = [self.label_list[pred.item()] for pred in predictions[0]]
 
-        # Remove special tokens ([CLS], [SEP], [PAD])
-        tokens_clean = []
-        labels_clean = []
-        for token, label in zip(tokens, labels):
-            if token not in ['[CLS]', '[SEP]', '[PAD]']:
-                # Remove ## from subword tokens
-                if token.startswith('##'):
-                    token = token[2:]
-                tokens_clean.append(token)
-                labels_clean.append(label)
+        # Remove special tokens ([CLS], [SEP], [PAD]) and merge ## subwords
+        # into whole words (label = label of the first subword)
+        tokens_clean, labels_clean = merge_subwords(tokens, labels)
 
         # Extract entities
         entities = self._extract_entities(tokens_clean, labels_clean)

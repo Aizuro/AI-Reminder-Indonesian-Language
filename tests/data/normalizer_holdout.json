@@ -1,0 +1,259 @@
+{
+ "now": "2026-10-19T14:00:00",
+ "timezone": "Asia/Jakarta",
+ "note": "Held-out: ditulis terpisah dari normalizer_cases.json dan dijalankan sekali sebelum perbaikan lanjutan. out_of_scope = batasan yang diketahui.",
+ "cases": [
+  {
+   "category": "typical",
+   "text": "Ingatkan aku besok jam 6 pagi untuk lari",
+   "expected": "2026-10-20T06:00:00",
+   "id": "H001"
+  },
+  {
+   "category": "typical",
+   "text": "REMINDER 15 MENIT LAGI",
+   "expected": "2026-10-19T14:15:00",
+   "id": "H002"
+  },
+  {
+   "category": "typical",
+   "text": "tolong bangunkan saya pukul 04.30 besok",
+   "expected": "2026-10-20T04:30:00",
+   "id": "H003"
+  },
+  {
+   "category": "typical",
+   "text": "meeting dengan klien hari kamis pukul 10.00",
+   "expected": "2026-10-22T10:00:00",
+   "id": "H004"
+  },
+  {
+   "category": "typical",
+   "text": "alarm jam 7 malam nanti",
+   "expected": "2026-10-19T19:00:00",
+   "id": "H005"
+  },
+  {
+   "category": "typical",
+   "text": "ingatkan saya 40 menit lagi cek email",
+   "expected": "2026-10-19T14:40:00",
+   "id": "H006"
+  },
+  {
+   "category": "typical",
+   "text": "makan malam besok jam 7",
+   "expected": "2026-10-20T19:00:00",
+   "id": "H007"
+  },
+  {
+   "category": "typical",
+   "text": "sholat ashar jam 3 sore",
+   "expected": "2026-10-19T15:00:00",
+   "id": "H008"
+  },
+  {
+   "category": "typical",
+   "text": "bayar listrik 4 hari lagi",
+   "expected": "2026-10-23T14:00:00",
+   "id": "H009"
+  },
+  {
+   "category": "typical",
+   "text": "jam 9 pagi hari rabu",
+   "expected": "2026-10-21T09:00:00",
+   "id": "H010"
+  },
+  {
+   "category": "typical",
+   "text": "ingatkan minum obat jam 8 malam setiap hari",
+   "expected": "2026-10-19T20:00:00",
+   "id": "H011"
+  },
+  {
+   "category": "typical",
+   "text": "besok pagi jam 6.30 olahraga",
+   "expected": "2026-10-20T06:30:00",
+   "id": "H012"
+  },
+  {
+   "category": "typical",
+   "text": "alarm 3 menit lagi",
+   "expected": "2026-10-19T14:03:00",
+   "id": "H013"
+  },
+  {
+   "category": "typical",
+   "text": "kerjakan tugas sabtu sore jam 4",
+   "expected": "2026-10-24T16:00:00",
+   "id": "H014"
+  },
+  {
+   "category": "typical",
+   "text": "rapat zoom lusa pukul 13.30",
+   "expected": "2026-10-21T13:30:00",
+   "id": "H015"
+  },
+  {
+   "category": "typical",
+   "text": "jam 5 sore besok ambil laundry",
+   "expected": "2026-10-20T17:00:00",
+   "id": "H016"
+  },
+  {
+   "category": "typical",
+   "text": "minggu depan senin jam 7 pagi",
+   "expected": "2026-10-26T07:00:00",
+   "id": "H017"
+  },
+  {
+   "category": "typical",
+   "text": "ingatkan besok jam 10 kurang 5 pagi",
+   "expected": "2026-10-20T09:55:00",
+   "id": "H018"
+  },
+  {
+   "category": "typical",
+   "text": "jam 12 siang makan",
+   "expected": "2026-10-20T12:00:00",
+   "id": "H019"
+  },
+  {
+   "category": "typical",
+   "text": "alarm jam 6 pagi hari senin",
+   "expected": "2026-10-26T06:00:00",
+   "id": "H020"
+  },
+  {
+   "category": "typical",
+   "text": "nanti sore jam 5 jemput adik",
+   "expected": "2026-10-19T17:00:00",
+   "id": "H021"
+  },
+  {
+   "category": "typical",
+   "text": "bangunkan jam 4 subuh",
+   "expected": "2026-10-20T04:00:00",
+   "id": "H022"
+  },
+  {
+   "category": "typical",
+   "text": "jam 12 malam",
+   "expected": "2026-10-20T00:00:00",
+   "id": "H023"
+  },
+  {
+   "category": "typical",
+   "text": "hari ini jam 5 sore",
+   "expected": "2026-10-19T17:00:00",
+   "id": "H024"
+  },
+  {
+   "category": "typical",
+   "text": "senin pagi",
+   "expected": "2026-10-26T08:00:00",
+   "id": "H025"
+  },
+  {
+   "category": "typical",
+   "text": "besok jam 7",
+   "expected": "2026-10-20T07:00:00",
+   "id": "H026"
+  },
+  {
+   "category": "typical",
+   "text": "ingatkan saya dalam 1 jam",
+   "expected": "2026-10-19T15:00:00",
+   "id": "H027"
+  },
+  {
+   "category": "typical",
+   "text": "jam 21.30 malam ini",
+   "expected": "2026-10-19T21:30:00",
+   "id": "H028"
+  },
+  {
+   "category": "typical",
+   "text": "besok jam 8.15 pagi",
+   "expected": "2026-10-20T08:15:00",
+   "id": "H029"
+  },
+  {
+   "category": "typical",
+   "text": "lusa malam jam 9",
+   "expected": "2026-10-21T21:00:00",
+   "id": "H030"
+  },
+  {
+   "category": "typical",
+   "text": "20 menit lagi",
+   "expected": "2026-10-19T14:20:00",
+   "id": "H031"
+  },
+  {
+   "category": "typical",
+   "text": "Rapat HARI JUMAT JAM 10 PAGI",
+   "expected": "2026-10-23T10:00:00",
+   "id": "H032"
+  },
+  {
+   "category": "typical",
+   "text": "jam 7.00 pagi kuliah",
+   "expected": "2026-10-20T07:00:00",
+   "id": "H033"
+  },
+  {
+   "category": "typical",
+   "text": "ingatkan saya jam 8 malam besok",
+   "expected": "2026-10-20T20:00:00",
+   "id": "H034"
+  },
+  {
+   "category": "typical",
+   "text": "bayar kos minggu ini jumat jam 5 sore",
+   "expected": "2026-10-23T17:00:00",
+   "id": "H035"
+  },
+  {
+   "category": "typical",
+   "text": "10 detik lagi",
+   "expected": "2026-10-19T14:00:10",
+   "id": "H036"
+  },
+  {
+   "category": "typical",
+   "text": "tiap hari jam 7 pagi minum vitamin",
+   "expected": "2026-10-20T07:00:00",
+   "id": "H037"
+  },
+  {
+   "category": "out_of_scope",
+   "text": "reminder 1 jam 30 menit lagi",
+   "expected": "2026-10-19T15:30:00",
+   "id": "H038"
+  },
+  {
+   "category": "out_of_scope",
+   "text": "tanggal 25 oktober jam 10 pagi",
+   "expected": "2026-10-25T10:00:00",
+   "id": "H039"
+  },
+  {
+   "category": "out_of_scope",
+   "text": "tengah malam nanti",
+   "expected": "2026-10-20T00:00:00",
+   "id": "H040"
+  },
+  {
+   "category": "out_of_scope",
+   "text": "seperempat jam lagi",
+   "expected": "2026-10-19T14:15:00",
+   "id": "H041"
+  },
+  {
+   "category": "out_of_scope",
+   "text": "sepuluh menit sebelum jam 5 sore",
+   "expected": "2026-10-19T16:50:00",
+   "id": "H042"
+  }
+ ]
+}

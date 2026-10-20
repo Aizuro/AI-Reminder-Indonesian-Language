@@ -1,0 +1,715 @@
+{
+ "now": "2026-10-19T14:00:00",
+ "timezone": "Asia/Jakarta",
+ "note": "Ground truth ditulis manual. now dibekukan (Senin, 19 Okt 2026 14:00 WIB). Kebijakan: waktu tanpa tanggal eksplisit yang sudah lewat digeser ke besok.",
+ "cases": [
+  {
+   "category": "relative",
+   "text": "alarm 20 detik lagi",
+   "expected": "2026-10-19T14:00:20",
+   "id": "N001"
+  },
+  {
+   "category": "relative",
+   "text": "ingatkan saya 5 menit lagi",
+   "expected": "2026-10-19T14:05:00",
+   "id": "N002"
+  },
+  {
+   "category": "relative",
+   "text": "alarm 30 menit lagi",
+   "expected": "2026-10-19T14:30:00",
+   "id": "N003"
+  },
+  {
+   "category": "relative",
+   "text": "meeting 2 jam lagi",
+   "expected": "2026-10-19T16:00:00",
+   "id": "N004"
+  },
+  {
+   "category": "relative",
+   "text": "pengingat 3 hari lagi",
+   "expected": "2026-10-22T14:00:00",
+   "id": "N005"
+  },
+  {
+   "category": "relative",
+   "text": "bangunkan saya 1 jam lagi",
+   "expected": "2026-10-19T15:00:00",
+   "id": "N006"
+  },
+  {
+   "category": "relative",
+   "text": "timer 45 detik lagi",
+   "expected": "2026-10-19T14:00:45",
+   "id": "N007"
+  },
+  {
+   "category": "relative",
+   "text": "10 menit lagi minum obat",
+   "expected": "2026-10-19T14:10:00",
+   "id": "N008"
+  },
+  {
+   "category": "relative",
+   "text": "ingatkan 15 menit lagi cek oven",
+   "expected": "2026-10-19T14:15:00",
+   "id": "N009"
+  },
+  {
+   "category": "relative",
+   "text": "5 jam lagi jemput adik",
+   "expected": "2026-10-19T19:00:00",
+   "id": "N010"
+  },
+  {
+   "category": "relative",
+   "text": "dalam 10 menit",
+   "expected": "2026-10-19T14:10:00",
+   "id": "N011"
+  },
+  {
+   "category": "relative",
+   "text": "dalam 2 jam rapat dimulai",
+   "expected": "2026-10-19T16:00:00",
+   "id": "N012"
+  },
+  {
+   "category": "relative",
+   "text": "setengah jam lagi makan",
+   "expected": "2026-10-19T14:30:00",
+   "id": "N013"
+  },
+  {
+   "category": "relative",
+   "text": "sejam lagi telepon ibu",
+   "expected": "2026-10-19T15:00:00",
+   "id": "N014"
+  },
+  {
+   "category": "relative",
+   "text": "lima menit lagi",
+   "expected": "2026-10-19T14:05:00",
+   "id": "N015"
+  },
+  {
+   "category": "relative",
+   "text": "dua jam lagi",
+   "expected": "2026-10-19T16:00:00",
+   "id": "N016"
+  },
+  {
+   "category": "relative",
+   "text": "tiga puluh menit lagi",
+   "expected": "2026-10-19T14:30:00",
+   "id": "N017"
+  },
+  {
+   "category": "relative",
+   "text": "sepuluh detik lagi",
+   "expected": "2026-10-19T14:00:10",
+   "id": "N018"
+  },
+  {
+   "category": "relative",
+   "text": "dua puluh menit lagi",
+   "expected": "2026-10-19T14:20:00",
+   "id": "N019"
+  },
+  {
+   "category": "relative",
+   "text": "2 minggu lagi bayar tagihan",
+   "expected": "2026-11-02T14:00:00",
+   "id": "N020"
+  },
+  {
+   "category": "relative",
+   "text": "1 minggu lagi",
+   "expected": "2026-10-26T14:00:00",
+   "id": "N021"
+  },
+  {
+   "category": "relative",
+   "text": "90 menit lagi",
+   "expected": "2026-10-19T15:30:00",
+   "id": "N022"
+  },
+  {
+   "category": "relative",
+   "text": "ingatkan 25 menit lagi",
+   "expected": "2026-10-19T14:25:00",
+   "id": "N023"
+  },
+  {
+   "category": "relative",
+   "text": "alarm 8 jam lagi",
+   "expected": "2026-10-19T22:00:00",
+   "id": "N024"
+  },
+  {
+   "category": "relative",
+   "text": "dua hari lagi",
+   "expected": "2026-10-21T14:00:00",
+   "id": "N025"
+  },
+  {
+   "category": "relative",
+   "text": "3 hari lagi jam 9 pagi",
+   "expected": "2026-10-22T09:00:00",
+   "id": "N026"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "rapat jam 16.00",
+   "expected": "2026-10-19T16:00:00",
+   "id": "N027"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "ingatkan jam 17.30 pulang",
+   "expected": "2026-10-19T17:30:00",
+   "id": "N028"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "alarm jam 20:15",
+   "expected": "2026-10-19T20:15:00",
+   "id": "N029"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "makan siang hari ini jam 15.30",
+   "expected": "2026-10-19T15:30:00",
+   "id": "N030"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "besok jam 09.00 meeting",
+   "expected": "2026-10-20T09:00:00",
+   "id": "N031"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "lusa jam 10.45",
+   "expected": "2026-10-21T10:45:00",
+   "id": "N032"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "hari ini jam 21.00 belajar",
+   "expected": "2026-10-19T21:00:00",
+   "id": "N033"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "jam 18.00 olahraga",
+   "expected": "2026-10-19T18:00:00",
+   "id": "N034"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "pukul 19.30 nonton",
+   "expected": "2026-10-19T19:30:00",
+   "id": "N035"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "pukul 14.30 dokter",
+   "expected": "2026-10-19T14:30:00",
+   "id": "N036"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "besok pukul 13.00",
+   "expected": "2026-10-20T13:00:00",
+   "id": "N037"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "jam 23.00 tidur",
+   "expected": "2026-10-19T23:00:00",
+   "id": "N038"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "kamis jam 08.00",
+   "expected": "2026-10-22T08:00:00",
+   "id": "N039"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "jam 6.30 besok",
+   "expected": "2026-10-20T06:30:00",
+   "id": "N040"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "hari ini jam 22.45",
+   "expected": "2026-10-19T22:45:00",
+   "id": "N041"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "jam 15.00 rapat",
+   "expected": "2026-10-19T15:00:00",
+   "id": "N042"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "alarm besok 05.30",
+   "expected": "2026-10-20T05:30:00",
+   "id": "N043"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "besok jam 12.30 makan siang",
+   "expected": "2026-10-20T12:30:00",
+   "id": "N044"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "jam 16 ambil paket",
+   "expected": "2026-10-19T16:00:00",
+   "id": "N045"
+  },
+  {
+   "category": "absolute_clock",
+   "text": "makan siang hari ini jam 12.30",
+   "expected": "2026-10-20T12:30:00",
+   "id": "N046"
+  },
+  {
+   "category": "part_of_day",
+   "text": "rapat jam 3 sore",
+   "expected": "2026-10-19T15:00:00",
+   "id": "N047"
+  },
+  {
+   "category": "part_of_day",
+   "text": "alarm jam 8 malam",
+   "expected": "2026-10-19T20:00:00",
+   "id": "N048"
+  },
+  {
+   "category": "part_of_day",
+   "text": "bangunkan saya jam 5 pagi",
+   "expected": "2026-10-20T05:00:00",
+   "id": "N049"
+  },
+  {
+   "category": "part_of_day",
+   "text": "ingatkan saya besok jam 7 pagi rapat",
+   "expected": "2026-10-20T07:00:00",
+   "id": "N050"
+  },
+  {
+   "category": "part_of_day",
+   "text": "jam 6 sore olahraga",
+   "expected": "2026-10-19T18:00:00",
+   "id": "N051"
+  },
+  {
+   "category": "part_of_day",
+   "text": "jam 9 malam belajar",
+   "expected": "2026-10-19T21:00:00",
+   "id": "N052"
+  },
+  {
+   "category": "part_of_day",
+   "text": "besok jam 1 siang makan",
+   "expected": "2026-10-20T13:00:00",
+   "id": "N053"
+  },
+  {
+   "category": "part_of_day",
+   "text": "jam 4 sore ngopi",
+   "expected": "2026-10-19T16:00:00",
+   "id": "N054"
+  },
+  {
+   "category": "part_of_day",
+   "text": "nanti malam nonton",
+   "expected": "2026-10-19T19:00:00",
+   "id": "N055"
+  },
+  {
+   "category": "part_of_day",
+   "text": "nanti sore jemput anak",
+   "expected": "2026-10-19T16:00:00",
+   "id": "N056"
+  },
+  {
+   "category": "part_of_day",
+   "text": "besok pagi olahraga",
+   "expected": "2026-10-20T08:00:00",
+   "id": "N057"
+  },
+  {
+   "category": "part_of_day",
+   "text": "besok siang makan",
+   "expected": "2026-10-20T12:00:00",
+   "id": "N058"
+  },
+  {
+   "category": "part_of_day",
+   "text": "malam ini belajar",
+   "expected": "2026-10-19T19:00:00",
+   "id": "N059"
+  },
+  {
+   "category": "part_of_day",
+   "text": "sore ini ke gym",
+   "expected": "2026-10-19T16:00:00",
+   "id": "N060"
+  },
+  {
+   "category": "part_of_day",
+   "text": "besok malam jam 8 dinner",
+   "expected": "2026-10-20T20:00:00",
+   "id": "N061"
+  },
+  {
+   "category": "part_of_day",
+   "text": "jam 10 malam tidur",
+   "expected": "2026-10-19T22:00:00",
+   "id": "N062"
+  },
+  {
+   "category": "part_of_day",
+   "text": "jam 3 siang ketemu klien",
+   "expected": "2026-10-19T15:00:00",
+   "id": "N063"
+  },
+  {
+   "category": "part_of_day",
+   "text": "jam 11 malam matikan lampu",
+   "expected": "2026-10-19T23:00:00",
+   "id": "N064"
+  },
+  {
+   "category": "part_of_day",
+   "text": "lusa jam 9 pagi",
+   "expected": "2026-10-21T09:00:00",
+   "id": "N065"
+  },
+  {
+   "category": "part_of_day",
+   "text": "besok jam 12 siang makan",
+   "expected": "2026-10-20T12:00:00",
+   "id": "N066"
+  },
+  {
+   "category": "part_of_day",
+   "text": "jam 7 pagi minum vitamin",
+   "expected": "2026-10-20T07:00:00",
+   "id": "N067"
+  },
+  {
+   "category": "part_of_day",
+   "text": "besok jam 4 sore",
+   "expected": "2026-10-20T16:00:00",
+   "id": "N068"
+  },
+  {
+   "category": "part_of_day",
+   "text": "besok jam 2 sore",
+   "expected": "2026-10-20T14:00:00",
+   "id": "N069"
+  },
+  {
+   "category": "part_of_day",
+   "text": "besok jam 4 siang",
+   "expected": "2026-10-20T16:00:00",
+   "id": "N070"
+  },
+  {
+   "category": "weekday_date",
+   "text": "rapat hari jumat jam 14.00",
+   "expected": "2026-10-23T14:00:00",
+   "id": "N071"
+  },
+  {
+   "category": "weekday_date",
+   "text": "kerja kelompok hari sabtu jam 10 pagi",
+   "expected": "2026-10-24T10:00:00",
+   "id": "N072"
+  },
+  {
+   "category": "weekday_date",
+   "text": "kamis jam 9 pagi",
+   "expected": "2026-10-22T09:00:00",
+   "id": "N073"
+  },
+  {
+   "category": "weekday_date",
+   "text": "ingatkan hari minggu jam 8 pagi ibadah",
+   "expected": "2026-10-25T08:00:00",
+   "id": "N074"
+  },
+  {
+   "category": "weekday_date",
+   "text": "selasa jam 3 sore",
+   "expected": "2026-10-20T15:00:00",
+   "id": "N075"
+  },
+  {
+   "category": "weekday_date",
+   "text": "rabu jam 7 malam",
+   "expected": "2026-10-21T19:00:00",
+   "id": "N076"
+  },
+  {
+   "category": "weekday_date",
+   "text": "senin jam 8 pagi",
+   "expected": "2026-10-26T08:00:00",
+   "id": "N077"
+  },
+  {
+   "category": "weekday_date",
+   "text": "lusa pagi",
+   "expected": "2026-10-21T08:00:00",
+   "id": "N078"
+  },
+  {
+   "category": "weekday_date",
+   "text": "minggu depan hari senin jam 9",
+   "expected": "2026-10-26T09:00:00",
+   "id": "N079"
+  },
+  {
+   "category": "weekday_date",
+   "text": "jumat minggu depan jam 13.00",
+   "expected": "2026-10-30T13:00:00",
+   "id": "N080"
+  },
+  {
+   "category": "weekday_date",
+   "text": "rabu minggu depan jam 10 pagi",
+   "expected": "2026-10-28T10:00:00",
+   "id": "N081"
+  },
+  {
+   "category": "weekday_date",
+   "text": "minggu depan jam 9 pagi",
+   "expected": "2026-10-26T09:00:00",
+   "id": "N082"
+  },
+  {
+   "category": "weekday_date",
+   "text": "pekan depan jam 8 pagi",
+   "expected": "2026-10-26T08:00:00",
+   "id": "N083"
+  },
+  {
+   "category": "weekday_date",
+   "text": "kamis minggu depan jam 3 sore",
+   "expected": "2026-10-29T15:00:00",
+   "id": "N084"
+  },
+  {
+   "category": "weekday_date",
+   "text": "ingatkan saya jumat jam 16.30",
+   "expected": "2026-10-23T16:30:00",
+   "id": "N085"
+  },
+  {
+   "category": "weekday_date",
+   "text": "sabtu malam jam 7",
+   "expected": "2026-10-24T19:00:00",
+   "id": "N086"
+  },
+  {
+   "category": "weekday_date",
+   "text": "minggu pagi jam 6",
+   "expected": "2026-10-25T06:00:00",
+   "id": "N087"
+  },
+  {
+   "category": "weekday_date",
+   "text": "selasa siang jam 1",
+   "expected": "2026-10-20T13:00:00",
+   "id": "N088"
+  },
+  {
+   "category": "weekday_date",
+   "text": "rabu sore",
+   "expected": "2026-10-21T16:00:00",
+   "id": "N089"
+  },
+  {
+   "category": "weekday_date",
+   "text": "jumat pagi",
+   "expected": "2026-10-23T08:00:00",
+   "id": "N090"
+  },
+  {
+   "category": "weekday_date",
+   "text": "kamis malam",
+   "expected": "2026-10-22T19:00:00",
+   "id": "N091"
+  },
+  {
+   "category": "weekday_date",
+   "text": "hari sabtu jam 9",
+   "expected": "2026-10-24T09:00:00",
+   "id": "N092"
+  },
+  {
+   "category": "weekday_date",
+   "text": "lusa jam 8 malam",
+   "expected": "2026-10-21T20:00:00",
+   "id": "N093"
+  },
+  {
+   "category": "colloquial",
+   "text": "jam setengah 8 pagi",
+   "expected": "2026-10-20T07:30:00",
+   "id": "N094"
+  },
+  {
+   "category": "colloquial",
+   "text": "besok jam setengah 8 pagi",
+   "expected": "2026-10-20T07:30:00",
+   "id": "N095"
+  },
+  {
+   "category": "colloquial",
+   "text": "jam setengah 4 sore",
+   "expected": "2026-10-19T15:30:00",
+   "id": "N096"
+  },
+  {
+   "category": "colloquial",
+   "text": "jam setengah 9 malam",
+   "expected": "2026-10-19T20:30:00",
+   "id": "N097"
+  },
+  {
+   "category": "colloquial",
+   "text": "besok jam setengah 12 siang",
+   "expected": "2026-10-20T11:30:00",
+   "id": "N098"
+  },
+  {
+   "category": "colloquial",
+   "text": "besok jam setengah 1 siang",
+   "expected": "2026-10-20T12:30:00",
+   "id": "N099"
+  },
+  {
+   "category": "colloquial",
+   "text": "besok jam sepuluh pagi",
+   "expected": "2026-10-20T10:00:00",
+   "id": "N100"
+  },
+  {
+   "category": "colloquial",
+   "text": "jam delapan malam",
+   "expected": "2026-10-19T20:00:00",
+   "id": "N101"
+  },
+  {
+   "category": "colloquial",
+   "text": "besok jam tujuh pagi",
+   "expected": "2026-10-20T07:00:00",
+   "id": "N102"
+  },
+  {
+   "category": "colloquial",
+   "text": "jam tiga sore",
+   "expected": "2026-10-19T15:00:00",
+   "id": "N103"
+  },
+  {
+   "category": "colloquial",
+   "text": "besok jam dua belas siang",
+   "expected": "2026-10-20T12:00:00",
+   "id": "N104"
+  },
+  {
+   "category": "colloquial",
+   "text": "jam sebelas malam",
+   "expected": "2026-10-19T23:00:00",
+   "id": "N105"
+  },
+  {
+   "category": "colloquial",
+   "text": "besok jam 7 kurang 15 menit",
+   "expected": "2026-10-20T06:45:00",
+   "id": "N106"
+  },
+  {
+   "category": "colloquial",
+   "text": "jam 8 kurang 10 malam",
+   "expected": "2026-10-19T19:50:00",
+   "id": "N107"
+  },
+  {
+   "category": "colloquial",
+   "text": "besok jam 6 kurang 5 pagi",
+   "expected": "2026-10-20T05:55:00",
+   "id": "N108"
+  },
+  {
+   "category": "colloquial",
+   "text": "jam 5 kurang 15 sore",
+   "expected": "2026-10-19T16:45:00",
+   "id": "N109"
+  },
+  {
+   "category": "colloquial",
+   "text": "lima belas menit lagi",
+   "expected": "2026-10-19T14:15:00",
+   "id": "N110"
+  },
+  {
+   "category": "colloquial",
+   "text": "satu jam lagi",
+   "expected": "2026-10-19T15:00:00",
+   "id": "N111"
+  },
+  {
+   "category": "colloquial",
+   "text": "enam puluh menit lagi",
+   "expected": "2026-10-19T15:00:00",
+   "id": "N112"
+  },
+  {
+   "category": "colloquial",
+   "text": "besok jam lima sore",
+   "expected": "2026-10-20T17:00:00",
+   "id": "N113"
+  },
+  {
+   "category": "colloquial",
+   "text": "lusa jam sembilan pagi",
+   "expected": "2026-10-21T09:00:00",
+   "id": "N114"
+  },
+  {
+   "category": "colloquial",
+   "text": "jam empat sore",
+   "expected": "2026-10-19T16:00:00",
+   "id": "N115"
+  },
+  {
+   "category": "colloquial",
+   "text": "kamis jam setengah 10 pagi",
+   "expected": "2026-10-22T09:30:00",
+   "id": "N116"
+  },
+  {
+   "category": "colloquial",
+   "text": "besok jam 9 lewat 15 menit",
+   "expected": "2026-10-20T09:15:00",
+   "id": "N117"
+  },
+  {
+   "category": "colloquial",
+   "text": "jam 7 kurang seperempat malam",
+   "expected": "2026-10-19T18:45:00",
+   "id": "N118"
+  }
+ ]
+}
